@@ -1,0 +1,29 @@
+.button-container{
+    width: 100%;
+}
+
+.custom-button{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #8080804d;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.blue{
+    background: linear-gradient(180deg, #4447f3 0%,#2a14a1 100%) 0% 0% no-repeat padding-box;
+}
+
+.red{
+    background: linear-gradient(180deg, #f15651 0%,#c31919 100%) 0% 0% no-repeat padding-box;
+}
+
+.green{
+    background: linear-gradient(180deg, #5bcf57 0%,#084408 100%) 0% 0% no-repeat padding-box;
+}
+
+.custom-button:hover{
+    box-shadow: 0px 0px 2px #b3b1b1;
+}

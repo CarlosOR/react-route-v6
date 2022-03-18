@@ -1,9 +1,9 @@
-import { Navigations } from "./routes/Navigations";
+import { MainNavigation } from "./routes/MainNavigation";
 
 function App() {
   return (
     <>
-      <Navigations />
+      <MainNavigation />
     </>
   );
 }

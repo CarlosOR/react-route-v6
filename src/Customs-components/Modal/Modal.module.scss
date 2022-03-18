@@ -1,0 +1,41 @@
+.modal-container {
+    position: fixed;
+    background: #fff;
+    height: 30%;
+    width: 35%;
+    top: 20%;
+    left: 35%;
+    color:#000;
+
+    .modal-title {
+        width: 100%;
+        color:#000;
+        font-weight: 700;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        padding-top: 10px;
+        height: calc(10%-10px);
+    }
+
+    .modal-body {
+        width: 100%;
+        height: 78%;
+    }
+
+    .modal-footer {
+        width: 100%;
+        height: 10%;
+        border-top: 1px solid gray;
+
+        .modal-footer-buttons{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+}
+
+
+.hidden{
+    display: none;
+}

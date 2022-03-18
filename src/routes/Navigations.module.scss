@@ -1,0 +1,39 @@
+.routeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .routeItem {
+        margin-left: 1rem;
+        border: 1px solid rgb(255, 255, 255);
+        a {
+            display: block;
+            padding: 15px 50px;
+            font-weight: 600;
+        }
+
+        a:link {
+            color: rgb(212, 212, 212);
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+        a:active {
+            color: rgb(60, 60, 196);
+            text-decoration: none;
+        }
+    }
+
+    .routeItem:hover {
+        border: 1px solid rgb(107, 107, 107);
+    }
+}

@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    .containerItem{
+        width: 97%;
+    }
+}
+
+.mt-10px{
+    margin-top: 10px;
+}

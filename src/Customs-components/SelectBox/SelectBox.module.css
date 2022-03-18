@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.label, .select{
+    width: 15%;
+}
+
+select{
+    height: 2.5rem;
+    border-radius: 8px;
+    outline: 0;
+}
